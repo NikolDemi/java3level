@@ -36,8 +36,8 @@ public class Main {
     }
 
     /**
-     * Задание 1 метод, который меняет два элемента массива местами.
-     * (массив может быть любого ссылочного типа).
+     * Задание 1
+     * метод, который меняет два элемента массива местами.
      */
     public static void swap(Object[] arr, int index1, int index2) {
         Object tmp = arr[index1];
@@ -46,7 +46,8 @@ public class Main {
     }
 
     /**
-     * Задание 2   Мметод, который преобразует массив в ArrayList. Метод списала, сама не очень разобралась
+     * Задание 2
+     * метод, который преобразует массив в ArrayList. Метод списала, сама не очень разобралась
      */
     public static <T> ArrayList<T> toArrayList(T[] arr) {
         return new ArrayList<T>(Arrays.asList(arr));
